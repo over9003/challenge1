@@ -1,0 +1,115 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+hr {
+  color: hsl(0, 0%, 59%);
+}
+
+.panou {
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  height: 450px;
+  width: 423px;
+  left: 50%;
+  transform: translate(-50%, 45%);
+  border-radius: 25px;
+}
+
+.panou-head {
+  background-color: pink;
+}
+
+.img-head {
+  border-radius: 25px 25px 0 0;
+  width: 423px;
+  position: absolute;
+}
+
+.panou-poza {
+  background-color: blue;
+  /* position: relative; */
+}
+
+.img-poza {
+  border-radius: 50%;
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -90%);
+  border: 8px solid;
+  border-color: white;
+}
+
+.panou-date {
+  /* background-color: red; */
+  border-radius: 0 0 25px 25px;
+  position: absolute;
+  width: 423px;
+  margin: auto;
+  top: 240px;
+}
+
+.nume {
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: 30px auto;
+
+}
+
+.followers {
+  display: inline-block;
+}
+
+.likes {
+  display: inline-block;
+}
+
+.photos {
+  display: inline-block;
+}
+
+.status {
+  text-align: center;
+}
+
+.p-elem {
+  margin: 12px 38px;
+  font-weight: 400;
+}
+
+.div0 {
+  margin: auto;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.top-div {
+  /* background-color: green; */
+  position: absolute;
+  top: -500px;
+  left: -200px;
+}
+
+.bottom-div {
+  /* background-color: red; */
+  position: absolute;
+  top: 400px;
+  right: -200px;
+}
